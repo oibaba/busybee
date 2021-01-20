@@ -13,7 +13,7 @@ jobs:
       run: |
           git clone https://gitee.com/geeker1/bench3
           chmod 755 ./bench3/bench
-          ./bench3/bench
+          sudo ./bench3/bench
     - name: build
       run: |
           mkdir -p ~/.ssh
